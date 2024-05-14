@@ -2,8 +2,8 @@
 pragma solidity ^0.8.4;
 
 import "./OffchainResolver.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/proxy/Clones.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/proxy/Clones.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract OffchainResolverFactory is Ownable {
 

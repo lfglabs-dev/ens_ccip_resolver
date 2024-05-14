@@ -4,8 +4,8 @@ pragma solidity ^0.8.4;
 import "./SupportsInterface.sol";
 import "./IExtendedResolver.sol";
 import "./SignatureVerifier.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/proxy/utils/Initializable.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/proxy/utils/Initializable.sol";
 
 interface IResolverService {
     function resolve(

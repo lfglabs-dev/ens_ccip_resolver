@@ -1,0 +1,19 @@
+{
+  "name": "ccip-tools",
+  "version": "1.0.0",
+  "description": "[![](./.github/banner.png)](https://ccip.tools)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "hardhat": "^2.22.3",
+    "install": "^0.13.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
